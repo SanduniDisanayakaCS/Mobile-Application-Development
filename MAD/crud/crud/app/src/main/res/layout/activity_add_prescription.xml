@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:background="@mipmap/ic_bg1"
+    tools:context=".addPrescription">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/abril_fatface"
+        android:textAlignment="center"
+        android:text="Add Prescription"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.159" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="237dp"
+            android:layout_height="252dp"
+            android:src="@drawable/pres"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="67dp"
+            tools:layout_editor_absoluteY="213dp" />
+
+        <LinearLayout
+            android:layout_width="369dp"
+            android:layout_height="264dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="466dp"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/openCam"
+                android:layout_width="356dp"
+                android:layout_height="45dp"
+                android:text="Camera"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/Gallery"
+                android:layout_width="356dp"
+                android:layout_height="45dp"
+                android:text="Gallery"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:background="@mipmap/ic_bg1"
+    tools:context=".spetsAdd">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/abril_fatface"
+        android:textAlignment="center"
+        android:text="Payment"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.159" />
+
+    <LinearLayout
+        android:layout_width="166dp"
+        android:layout_height="485dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-13dp"
+        tools:layout_editor_absoluteY="199dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Spectacle"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="134dp"
+            android:layout_height="116dp"
+            android:src="@drawable/ar"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="515dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Lens"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="134dp"
+            android:layout_height="116dp"
+            android:src="@drawable/lens"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="515dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Prescription"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="134dp"
+            android:layout_height="116dp"
+            android:src="@drawable/pres"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="515dp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="226dp"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="226dp">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ru 5000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rayban"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full Rim"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unisex"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="208dp"
+        android:layout_height="112dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="389dp">
+
+        <TextView
+            android:id="@+id/textView137"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ru 3500"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView183"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Polorized"
+            android:textSize="20sp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="236dp"
+        android:layout_height="95dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="532dp">
+
+        <TextView
+            android:id="@+id/textView1831"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Ru 8500"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="Pay"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="643dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

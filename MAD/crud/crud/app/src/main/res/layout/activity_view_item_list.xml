@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:background="@mipmap/ic_bg1"
+    tools:context=".spetsAdd">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/abril_fatface"
+        android:textAlignment="center"
+        android:text="View Spectacles"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.159" />
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="348dp"
+        android:layout_marginStart="4dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="286dp">
+
+        <ImageView
+            android:layout_width="134dp"
+            android:layout_height="116dp"
+            android:src="@drawable/ar"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="515dp" />
+
+        <ImageView
+            android:layout_width="134dp"
+            android:layout_height="116dp"
+            android:src="@drawable/lar"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="515dp" />
+
+        <ImageView
+            android:layout_width="134dp"
+            android:layout_height="116dp"
+            android:src="@drawable/d"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="515dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="117dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="289dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ru 5000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rayban"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full Rim"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unisex"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="209dp"
+        android:layout_height="108dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="414dp">
+
+        <TextView
+            android:id="@+id/textView171"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ru 15000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView181"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prada"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView119"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full Rim"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView210"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unisex"
+            android:textSize="20sp"
+            tools:ignore="DuplicateIds" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="205dp"
+        android:layout_height="106dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="534dp">
+
+        <TextView
+            android:id="@+id/textView1711"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ru 15000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView1181"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prada"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView1119"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full Rim"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2110"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unisex"
+            android:textSize="20sp"
+            tools:ignore="DuplicateIds" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

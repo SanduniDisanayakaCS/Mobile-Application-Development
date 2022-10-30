@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name"></string>
+    <string-array name="Roll">
+        <item>MRI</item>
+        <item>CT Scan</item>
+
+    </string-array>
+
+    <string-array name="position">
+        <item>Admin</item>
+        <item>Doctor</item>
+        <item>patient</item>
+        <item>Optician</item>
+
+
+    </string-array>
+
+    <string name="col1">Name</string>
+    <string name="col2">Booking Type</string>
+    <string name="col3">patient NIC</string>
+    <string name="col4">Prescription image</string>
+
+    <string name="rol1">Sachin</string>
+    <string name="rol2">CT sacn</string>
+    <string name="rol3">981370333</string>
+    <string name="rol4">image</string>
+</resources>
